@@ -3,7 +3,7 @@ Android_Ble_SDK是一个用于快速与蓝牙BLE交互的工具包，仅提供�
 
 
 README: [English](https://github.com/Sartharian/Android_Ble_SDK/blob/master/README_EN.md) | 
-		[Español]
+		[Español](https://github.com/Sartharian/Android_Ble_SDK/blob/master/README_ES.md) |
         [中文](https://github.com/Sartharian/Android_Ble_SDK/blob/master/README.md) 
 
 ## 必要条件
