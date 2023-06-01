@@ -2,23 +2,24 @@
 Android_Ble_SDK是一个用于快速与蓝牙BLE交互的工具包，仅提供给我们合作的客户下载使用，方便提升客户的开发效率。
 
 
-README: [English](https://github.com/HBandSDK/Android_Ble_SDK/blob/master/README_EN.md) | 
-        [中文](https://github.com/HBandSDK/Android_Ble_SDK/blob/master/README.md)
+README: [English](https://github.com/Sartharian/Android_Ble_SDK/blob/master/README_EN.md) | 
+		[Español]
+        [中文](https://github.com/Sartharian/Android_Ble_SDK/blob/master/README.md) 
 
 ## 必要条件
 
     
    * API>19&&BLE 4.0  
-   * [vpbluetooth_x.x.x.jar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
-   * [gson-x.x.x.jar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
-   * [vpprotocol_2.1.xx.xx.aar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_core)
+   * [vpbluetooth_x.x.x.jar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [gson-x.x.x.jar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [vpprotocol_2.1.xx.xx.aar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_core)
 
 ## 可选（如果是汇顶的芯片，升级会用到如下包）
 
-   * [libble-0.x.aar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
-   * [libcomx-0.x.jar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
-   * [libdfu-1.x.jar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
-   * [libfastdfu-0.x.jar](https://github.com/HBandSDK/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [libble-0.x.aar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [libcomx-0.x.jar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [libdfu-1.x.jar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
+   * [libfastdfu-0.x.jar](https://github.com/Sartharian/Android_Ble_SDK/tree/master/android_sdk_source/jar_base)
 
 ## 如何使用
 
