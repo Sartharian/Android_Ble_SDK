@@ -3,7 +3,7 @@ package com.timaimee.vpdemo.activity;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -231,7 +231,7 @@ public class JLDeviceOPTActivity extends Activity implements View.OnClickListene
                 for (FatFile serverFatFile : serverFatFiles) {
                     Logger.t(TAG).e("服务器表盘--->" + serverFatFile.toString());
                 }
-                Logger.t(TAG).e("照片表盘--->" + picFatFile.toString());
+                Logger.t(TAG).e("照片表盘--->" + (picFatFile == null ? "NULL" : picFatFile.getPath()));
                 loadingDialog.disMissDialog();
             }
 
@@ -357,6 +357,16 @@ public class JLDeviceOPTActivity extends Activity implements View.OnClickListene
             public void onNeedReconnect(String address, String dfuLangAddress, boolean isReconnectBySdk) {
                 Logger.t(TAG).e("【杰理OTA】--->OTA升级dfuLang重连中: address = " + address + " , dfuLangAddress = " + dfuLangAddress + " , 是否由SDK重连 = " + isReconnectBySdk);
                 tvOTAInfo.setText("数据传输结束，开始搜索DFULang设备->设备内部升级");
+            }
+
+            @Override
+            public void onDFULangConnectSuccess(String dfuLangAddress) {
+                tvOTAInfo.setText("DFULang设备连接成功->设备内部升级");
+            }
+
+            @Override
+            public void onDFULangConnectFailed(String dfuLangAddress) {
+                tvOTAInfo.setText("【错误】DFULang设备连接失败，请手动连接DFULang设备重新升级");
             }
 
             @Override
